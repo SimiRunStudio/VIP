@@ -39,7 +39,7 @@ jobs:
         run: npx expo config --type public
 
       - name: Generate Android project
-        run: npx expo prebuild --platform android --clean --non-interactive
+        run: CI=1 npx expo prebuild --platform android --clean
 
       - name: Build signed installable APK
         working-directory: android

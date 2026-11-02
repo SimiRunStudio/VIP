@@ -1,0 +1,9 @@
+IMPORTANT: GitHub repository root upload layout
+
+Extract this ZIP. Open the extracted folder and upload its CONTENTS directly to the GitHub repository root (not the enclosing folder and not only selected files).
+
+The repository root must show: App.js, app.json, package.json, assets/ and .github/
+The assets folder must contain branding.png, app-icon.png and splash-logo.png.
+The workflow must be at .github/workflows/build-apk.yml.
+
+Do not upload the ZIP as a single file. Preserve folder structure. Commit all files, then open Actions and run Build Asmaron Android APK.
